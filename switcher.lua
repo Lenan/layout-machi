@@ -253,7 +253,7 @@ function module.start(c, exit_keys)
       ["k"] = "Up",
       ["l"] = "Right",
       ["H"] = "Left",
-      ["J"] = "Down",
+      ["J"] = "down",
       ["K"] = "Up",
       ["L"] = "Right",
    }
