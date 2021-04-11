@@ -248,10 +248,14 @@ function module.start(c, exit_keys)
    infobox.bgimage = draw_info
 
    local key_translate_tab = {
-      ["w"] = "Up",
-      ["a"] = "Left",
-      ["s"] = "Down",
-      ["d"] = "Right",
+      ["h"] = "Left",
+      ["j"] = "Down",
+      ["k"] = "Up",
+      ["l"] = "Right",
+      ["H"] = "Left",
+      ["J"] = "Down",
+      ["K"] = "Up",
+      ["L"] = "Right",
    }
 
    api.awful.client.focus.history.disable_tracking()
